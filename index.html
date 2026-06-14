@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sena CMTC</title>
+    <link rel="icon" href="IMG/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-brand">
+            <img src="IMG/logo-sena-naranja.43e61d0f.svg" alt="Logo de Colombia 5.0" class="logo">
+            <h2 class="site-title">SENA CMTC</h2>
+        </div>
+        
+        <nav aria-label="Navegación principal">
+            <ul>
+                <li><a href="#home" data-value="home" class="tab-link active" aria-current="page">Inicio</a></li>
+                <li><a href="#about" data-value="about" class="tab-link">Sobre ECCI</a></li>
+                <li><a href="#conference" data-value="conference" class="tab-link">Conferencia de Sara Viloria</a></li>
+                <li><a href="#glosary" data-value="glosary" class="tab-link">Glosario</a></li>
+                <li><a href="#about-us" data-value="about-us" class="tab-link">Nosotros</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-lang">
+            <button type="button" class="lang-link active" data-lang="es">ES</button>
+            <span class="lang-separator">|</span>
+            <button type="button" class="lang-link" data-lang="en">EN</button>
+        </div>
+    </header>
+
+    <main>
+        <div id="home" class="tab-content active">
+            <section class="hero hero-home animate-fade-in">
+                <div class="hero-inner">
+                    <span class="hero-tag">Encuentro Interinstitucional</span>
+                    <h1>El Universo de los Colores</h1>
+                    <p class="hero-subtitle">Nuestra experiencia formativa del SENA CMTC en la Universidad ECCI</p>
+                    <a href="#proposito" class="btn-primary">Conocer la experiencia</a>
+                </div>
+            </section>
+
+            <section id="proposito" class="page-section purpose-section">
+                <div class="section-header">
+                    <h2>Propósito del Sitio</h2>
+                    <p style="color: var(--text-secondary);">Como aprendices del SENA CMTC invitados por la Universidad ECCI, creamos este sitio para documentar lo aprendido en la conferencia de Sara Viloria y compartir recursos prácticos que conecten la teoría del color con proyectos reales.</p>
+                </div>
+
+                <!-- Mantiene tus dos primeras tarjetas originales -->
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h3>¿Por qué lo hicimos?</h3>
+                        <p>Registrar la experiencia, aplicar conceptos de color en nuestros desarrollos y ofrecer material útil para otros estudiantes y docentes.</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>Objetivos</h3>
+                        <ul>
+                            <li>Documentar las ideas clave de la conferencia.</li>
+                            <li>Traducir conceptos de color a prácticas de diseño y CSS.</li>
+                            <li>Compartir recursos y ejemplos para seguir aprendiendo.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- BLOQUE DE TRANSICIÓN: Adaptado a tu paleta Dark/SENA -->
+                <div class="info-card transition-block" style="margin-top: 30px; width: 100%; box-sizing: border-box; padding: 0; overflow: hidden; display: table; background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-modern); box-shadow: 0 8px 24px var(--glow-orange);">
+                    <div style="display: table-row;">
+                        
+                        <!-- Columna de la Imagen -->
+                        <div style="display: table-cell; width: 40%; vertical-align: middle; background: #13161c; text-align: center; position: relative;">
+                            <!-- Reemplaza con la ruta de tu foto -->
+                            <img src="https://marketersbyadlatina.com/uploads/img/-5174-sena944.jpg" alt="Sara Viloria en Conferencia" style="width: 100%; height: 100%; display: block; object-fit: cover; opacity: 0.9;">
+                        </div>
+                        
+                        <!-- Columna del Texto -->
+                        <div style="display: table-cell; width: 60%; vertical-align: middle; padding: 30px; box-sizing: border-box;">
+                            <h3 style="margin-top: 0; color: var(--sena-orange);">De la Experiencia a la Inspiración</h3>
+                            <p style="margin-bottom: 0; line-height: 1.6; color: var(--text-secondary);">
+                                El pilar fundamental de este encuentro fue la perspectiva única de la artista. Su enfoque nos demostró que el color no es solo estética, sino una poderosa herramienta de comunicación y psicología aplicable al desarrollo de software y el diseño de interfaces. Antes de adentrarnos en los detalles técnicos de la conferencia, te invitamos a conocer la trayectoria de la mente detrás de estas ideas.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Botón de acción con margen superior limpio -->
+                <div style="text-align:center; margin-top:35px;">
+                    <a href="#biografia-evento" class="btn-primary">Conoce a la artista</a>
+                </div>
+            </section>
+
+            <section id="biografia-evento" class="page-section section-speaker">
+                <div class="speaker-container">
+                    <div class="speaker-image-wrapper">
+                        <div class="image-placeholder"></div>
+                    </div>
+                    <div class="speaker-text">
+                        <h2>Una Ponencia Inspiradora</h2>
+                        <p class="highlight-text">
+                            Tuvimos el honor de asistir como invitados a la conferencia dictada por la reconocida pintora, poeta y escritora <strong>Sara Viloria</strong>.
+                        </p>
+                        <p>
+                            A través de su mirada única, exploramos cómo el color trasciende lo visual para convertirse en un lenguaje emocional, psicológico y narrativo. Un puente perfecto entre la sensibilidad del arte y la estructura del desarrollo de software.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="author-bio" class="page-section author-bio-section">
+                <div class="section-header">
+                    <h2>Sara Viloria desde la mirada de un estudiante SENA</h2>
+                    <p>Como aprendices del SENA CMTC, descubrimos cómo su voz artístico-didáctica nos conecta con el diseño, el color y la programación.</p>
+                </div>
+
+                <div class="author-grid">
+                    <div class="bio-card">
+                        <h3>Su historia nos inspira</h3>
+                        <p>Para nosotros, Sara Viloria es más que una artista: es una creadora que transforma el color en significado. Su manera de hablar de sensibilidad, contraste y emoción nos hizo ver que un buen diseño web también nace de una visión humana.</p>
+                        <p>Desde la percepción de un estudiante de Análisis y Desarrollo de Software, su conferencia nos recordó que la interfaz de usuario no solo debe funcionar, sino también transmitir, conmover y conectar.</p>
+                        <p>Aplicamos sus enseñanzas integrando estética y técnica: interfaces atractivas, accesibles y coherentes con el mensaje que queremos transmitir.</p>
+                        <ul>
+                            <li>Artista visual con enfoque en color y narrativa.</li>
+                            <li>Poeta que usa el arte como puente hacia la experiencia.</li>
+                            <li>Ejemplo de cómo la creatividad puede inspirar proyectos técnicos.</li>
+                        </ul>
+                    </div>
+                    <div class="author-media">
+                        <div class="author-photo">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-autMeNvBugUWkqMOJlMGeKI12Vxb7Ff6AOvA6xV4y-kTuAy5p722h_M&s=10" alt="Sara Viloria" class="responsive-img">
+                        </div>
+                        <div class="author-photo">
+                            <img src="https://flycrew-bio.s3.us-east-2.amazonaws.com/bca0e0fc57de6ab86692421c52fab8c7-medium.jpg" alt="SENA CMTC" class="responsive-img">
+                        </div>
+                                                <div class="author-photo">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy2IdW9JhI_9AUbWT2OTrbWbhKGrFF7Z_fb3Ay_COQmNJc6qjopEFL1o0B&s=10" alt="Sara Viloria" class="responsive-img">
+                        </div>
+                        <div class="author-photo">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQZGSuu0J66hDeyDVCu-hc6tazAgAy_CJhlWeUMTOg4cSNWsA52uOIp0rp&s=10" alt="SENA CMTC" class="responsive-img">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="author-resources">
+                    <div class="resource-card">
+                        <h3>Video recomendado</h3>
+                        <div class="video-embed">
+                            <iframe src="https://www.youtube.com/embed/i9qs7cqv33s" title="Video sobre Sara Viloria" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                    <div class="resource-card">
+                        <h3>Enlaces para seguir aprendiendo</h3>
+                        <ul class="resource-links">
+                            <li><a href="https://acuarelistasdechile.cl/sara-viloria.html" target="_blank" rel="noopener noreferrer">Buscar más sobre Sara Viloria</a></li>
+                            <li><a href="https://www.youtube.com/c/saloria/streams" target="_blank" rel="noopener noreferrer">Ver entrevistas y charlas en YouTube</a></li>
+                            <li><a href="https://saloria.thinkific.com" target="_blank" rel="noopener noreferrer">Cursos para profundizar en el color y el arte</a></li>
+                        </ul>
+                        <p>Estos recursos nos ayudan a aplicar lo aprendido en proyectos y ejercicios prácticos del SENA.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="page-section">
+                <div class="section-header">
+                    <h2>Ejes Centrales del Encuentro</h2>
+                    <p>Los tres pilares cromáticos que transformarán nuestra forma de maquetar y diseñar.</p>
+                </div>
+                
+                <div class="info-grid">
+                    <div class="info-card">
+                        <div class="card-icon">🧠</div>
+                        <h3>Psicología del Color</h3>
+                        <p>Análisis del impacto emocional y las tendencias cromáticas discutidas durante el encuentro interinstitucional. Cómo cada tono evoca estados mentales específicos.</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="card-icon">✨</div>
+                        <h3>Identidad de Marca</h3>
+                        <p>Cómo las marcas aplican paletas estratégicas para conectar de forma directa con su público objetivo, construyendo consistencia visual y confianza.</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="card-icon">🚀</div>
+                        <h3>Innovación y Diseño</h3>
+                        <p>Herramientas y tecnologías modernas presentadas para el desarrollo y optimización de interfaces visuales interactivas y accesibles.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="page-section">
+                <div class="section-header">
+                    <h2>Galería del Evento</h2>
+                    <p>Momentos capturados durante nuestra experiencia formativa.</p>
+                </div>
+                <div class="gallery-grid grid-5">
+                    <div class="gallery-item">
+                        <img src="IMG/Fotos del evento/Foto_grupo_estatua.jpeg" alt="Evento SENA ECCI 1" class="gallery-image">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="IMG/Fotos del evento/imagen9.jpeg" alt="Evento SENA ECCI 2" class="gallery-image">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="IMG/Fotos del evento/ECCI2.jpeg" alt="Evento SENA ECCI 3" class="gallery-image">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="IMG/Fotos del evento/Imagen_grupo.jpeg" alt="Evento SENA ECCI 4" class="gallery-image">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="IMG/Fotos del evento/ECCI_edificio.jpeg" alt="Evento SENA ECCI 5" class="gallery-image">
+                    </div>
+                </div>
+            </section>
+
+            <section class="page-section explore-cta-section">
+                <div class="cta-card">
+                    <h2>¿Listo para profundizar en el espectro visual?</h2>
+                    <p>Hemos preparado bitácoras detalladas, galerías del evento y la documentación técnica de cómo aplicamos estos conceptos en el código.</p>
+                    <div class="cta-buttons">
+                        <button class="btn-secondary" data-tab="about">Ver ECCI y Galería</button>
+                        <button class="btn-orange" data-tab="about-us">Explorar al Equipo</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="about" class="tab-content">
+            <section class="hero hero-about">
+                <div class="hero-inner">
+                    <h1>Sobre la Universidad ECCI</h1>
+                    <p class="hero-subtitle">Un campus creativo que impulsa la capacitación digital y la colaboración con SENA CMTC.</p>
+                </div>
+            </section>
+
+            <section class="page-section about-content">
+                
+                <div class="info-block">
+                    <h2>¿Qué es la Universidad ECCI?</h2>
+                    <p>La Universidad ECCI es una institución de educación superior de gran trayectoria en Colombia, reconocida por su fuerte enfoque tecnológico, práctico y de innovación. Es un ecosistema académico que se caracteriza por impulsar el desarrollo técnico y profesional, conectando directamente a los estudiantes con las demandas de la industria digital actual.</p>
+                </div>
+
+                <div class="image-gallery grid-2">
+                    <div class="block-image">
+                    <div class="img-placeholder tight">
+                        <img src="IMG/Fotos del evento/ECCI_rascacielos.jpeg" alt="Descripción de la imagen">
+                        
+                        <span class="placeholder-text">Texto alternativo o de carga</span>
+                    </div>
+                    </div>
+                    <div class="block-image">
+                    <div class="img-placeholder tight">
+                        <img src="IMG/Fotos del evento/ECCI_Salon.jpeg" alt="Descripción de la imagen">
+                        
+                        <span class="placeholder-text">Texto alternativo o de carga</span>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="info-block">
+                    <h2>Sede Centro: Innovación en el Corazón de Bogotá</h2>
+                    <p>Ubicada en un punto neurálgico e histórico de la capital, la Sede Centro de la ECCI combina la esencia de la arquitectura urbana con modernos laboratorios de cómputo, talleres interactivos y espacios de co-working. Este campus es el núcleo donde confluyen las facultades de ingeniería y diseño, sirviendo como escenario ideal para el desarrollo de eventos tecnológicos interinstitucionales.</p>
+                </div>
+
+                <div class="info-block highlight-box">
+                    <h2>Nuestra Experiencia como Comunidad SENA</h2>
+                    <p>La visita fortaleció nuestros lazos con la ECCI y mostró cómo la formación técnica complementa la creatividad académica, especialmente en diseño y desarrollo de interfaces. Compartimos metodologías y aprendizajes que nos inspiran a mejorar proyectos reales.</p>
+                </div>
+
+                <div class="image-gallery grid-3">
+                    <div class="block-image">
+                    <div class="img-placeholder tight">
+                        <img src="IMG/Fotos del evento/ECCI_edificio.jpeg" alt="Descripción de la imagen">
+                        
+                        <span class="placeholder-text">Texto alternativo o de carga</span>
+                    </div>
+                    </div>
+                    <div class="block-image">
+                    <div class="img-placeholder tight">
+                        <img src="IMG/Fotos del evento/ECCI_salon2.jpeg" alt="Descripción de la imagen">
+                        
+                        <span class="placeholder-text">Texto alternativo o de carga</span>
+                    </div>
+                    </div>
+                    <div class="block-image">
+                    <div class="img-placeholder tight">
+                        <img src="IMG/Fotos del evento/ECCI_patio.jpeg" alt="Descripción de la imagen">
+                        
+                        <span class="placeholder-text">Texto alternativo o de carga</span>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="gallery-section">
+                    <h2>Galería de la Universidad ECCI</h2>
+                    <div class="gallery-grid grid-5">
+                        <div class="gallery-item">
+                            <img src="IMG/Fotos del evento/ECCI1.jpeg" alt="Universidad ECCI 1" class="gallery-image">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="IMG/Fotos del evento/ECCI2.jpeg" alt="Universidad ECCI 2" class="gallery-image">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="IMG/Fotos del evento/ECCI3.jpeg" alt="Universidad ECCI 3" class="gallery-image">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="IMG/Fotos del evento/ECCI4.jpeg" alt="Universidad ECCI 4" class="gallery-image">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="IMG/Fotos del evento/ECCI5.jpeg" alt="Universidad ECCI 5" class="gallery-image">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="conference" class="tab-content">
+            <section class="hero hero-conference">
+                <div class="hero-inner">
+                    <h1>Conferencia de Sara Viloria</h1>
+                    <p class="hero-subtitle">Ideas y métodos sobre el manejo del color en medios digitales y la experiencia visual.</p>
+                </div>
+            </section>
+
+            <section class="page-section conference-content">
+                
+                <div class="intro-conference">
+                    <h2>Una Ponencia Magistral</h2>
+                    <p>Tuvimos el privilegio de asistir a la conferencia impartida por <strong>Sara Viloria</strong>, reconocida pintora, poeta y escritora. Su perspectiva multidisciplinaria nos ofreció un enfoque único, cruzando las fronteras del arte clásico, la literatura y el diseño digital para entender el impacto real del color en las interfaces y la experiencia humana.</p>
+                </div>
+
+                <div class="topic-card">
+                    <div class="topic-text">
+                        <h3>Teoría e Historia de los Colores</h3>
+                        <p>La ponencia inició con un viaje evolutivo sobre cómo la humanidad ha interpretado el espectro cromático. Desde los pigmentos naturales del arte rupestre hasta la síntesis aditiva y sustractiva moderna. Sara nos desglosó las bases técnicas de la teoría del color, recordándonos que cada tono que usamos en el frontend hereda un trasfondo histórico cultural profundo.</p>
+                    </div>
+                    <div class="topic-image-wrapper">
+                        <div class="block-image">
+                        <div class="img-placeholder tight">
+                            <img src="IMG/Fotos del evento/Historia_color.jpeg" alt="Descripción de la imagen">
+                            
+                            <span class="placeholder-text">Texto alternativo o de carga</span>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="topic-card reverse">
+                    <div class="topic-text">
+                        <h3>Psicología del Color y Experiencia Visual</h3>
+                        <p>Más allá de la estética, el color es un disparador de emociones y comportamientos. Analizamos cómo el cerebro procesa los estímulos cromáticos y cómo esto define la usabilidad y la accesibilidad. Comprender la psicología del color nos permite, como desarrolladores y diseñadores, guiar la atención del usuario de manera intuitiva y orgánica.</p>
+                    </div>
+                    <div class="topic-image-wrapper">
+                                                <div class="block-image">
+                        <div class="img-placeholder tight">
+                            <img src="IMG/Fotos del evento/Psicologia_color.jpeg" alt="Descripción de la imagen">
+                            
+                            <span class="placeholder-text">Texto alternativo o de carga</span>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="topic-card">
+                    <div class="topic-text">
+                        <h3>Combinaciones Cromáticas y Armonías</h3>
+                        <p>Sara nos enseñó métodos prácticos para dominar el círculo cromático, explorando armonías análogas, complementarias y triadas. Aprendimos a balancear contrastes agresivos sin perder la elegancia visual, una habilidad crucial para estructurar hojas de estilo (CSS) limpias, legibles y con un balance visual óptimo.</p>
+                    </div>
+                    <div class="topic-image-wrapper">
+                        <div class="block-image">
+                        <div class="img-placeholder tight">
+                            <img src="IMG/Fotos del evento/Combinacion_color.jpeg" alt="Descripción de la imagen">
+                            
+                            <span class="placeholder-text">Texto alternativo o de carga</span>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="topic-card reverse">
+                    <div class="topic-text">
+                        <h3>La Moda en el Color y Tendencias Digitales</h3>
+                        <p>Para cerrar, la conferencia abordó cómo las tendencias del color son cíclicas y están fuertemente influenciadas por la moda, el contexto social y la tecnología. Entender estas dinámicas nos ayuda a diseñar interfaces que no solo sean funcionales hoy, sino que se mantengan vigentes y atractivas ante las corrientes del diseño contemporáneo.</p>
+                    </div>
+                    <div class="topic-image-wrapper">
+                        <div class="block-image">
+                            <div class="img-placeholder tight">
+                                <img src="IMG/Fotos del evento/Moda_color.jpeg" alt="Descripción de la imagen">
+                                
+                                <span class="placeholder-text">Texto alternativo o de carga</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-section">
+                    <h2>Galería de la Conferencia de Sara Viloria</h2>
+                    <div class="gallery-grid grid-5">
+                        <div class="gallery-item">
+                            <img src="IMG/Fotos del evento/Imagen1.jpeg" alt="Conferencia Sara Viloria 1" class="gallery-image">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="IMG/Fotos del evento/Imagen2.jpeg" alt="Conferencia Sara Viloria 2" class="gallery-image">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="IMG/Fotos del evento/Imagen3.jpeg" alt="Conferencia Sara Viloria 3" class="gallery-image">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="IMG/Fotos del evento/Imagen4.jpeg" alt="Conferencia Sara Viloria 4" class="gallery-image">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="IMG/Fotos del evento/Imagen5.jpeg" alt="Conferencia Sara Viloria 5" class="gallery-image">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="IMG\Fotos del evento\imagen6.jpeg" alt="Conferencia Sara Viloria 6" class="gallery-image">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="IMG\Fotos del evento\imagen7.jpeg" alt="Conferencia Sara Viloria 7" class="gallery-image">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="IMG/Fotos del evento/Imagen8.jpeg" alt="Conferencia Sara Viloria 8" class="gallery-image">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="IMG\Fotos del evento\imagen10.jpeg" alt="Conferencia Sara Viloria 10" class="gallery-image">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="IMG/Fotos del evento/Imagen9.jpeg" alt="Conferencia Sara Viloria 9" class="gallery-image">
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+        <div id="glosary" class="tab-content">
+            <section class="hero hero-glosary">
+                <div class="hero-inner">
+                    <h1>Glosario Visual</h1>
+                    <p class="hero-subtitle">Términos esenciales para dominar color, contraste y accesibilidad en diseño web.</p>
+                </div>
+            </section>
+
+            <section class="page-section glosary-content">
+                
+                <div class="glosary-intro">
+                    <h2>El Arsenal Técnico del Diseñador Frontend</h2>
+                    <p>El código y el diseño se hablan a través de conceptos precisos. Domina el lenguaje visual que separa a un maquetador novato de un desarrollador experto en interfaces interactivas.</p>
+                </div>
+
+                <div class="teaser-grid">
+                    
+                    <div class="teaser-card">
+                        <div class="card-badge">Color</div>
+                        <h3>RGB vs. CMYK</h3>
+                        <p>¿Por qué el código rompe tus colores impresos? Descubre la física de la luz digital frente a los pigmentos físicos.</p>
+                    </div>
+
+                    <div class="teaser-card">
+                        <div class="card-badge Code">Estándar</div>
+                        <h3>Normas WCAG</h3>
+                        <p>El contraste no es moda, es ley. Explora las reglas de accesibilidad indispensables para interfaces globales.</p>
+                    </div>
+
+                    <div class="teaser-card">
+                        <div class="card-badge UI">UI/UX</div>
+                        <h3>Contraste Armónico</h3>
+                        <p>La sutil ciencia detrás de por qué unos degradados cansan la vista y otros atrapan al usuario por horas.</p>
+                    </div>
+
+                </div>
+
+                <div class="glosary-cta-box">
+                    <div class="cta-info">
+                        <span class="counter-badge">30 Conceptos Clave</span>
+                        <h3>¿Listo para dominar el diseño digital?</h3>
+                        <p>Explora nuestro glosario completo e interactivo. Términos explicados de forma rápida, visual y aplicados directamente a tus hojas de estilo CSS.</p>
+                    </div>
+                    <a href="Glosario/glosario_color_sena.html" class="btn-glosary">
+                        Explorar Glosario Completo 
+                        <span class="btn-arrow">→</span>
+                    </a>
+                </div>
+
+            </section>
+        </div>
+
+        <div id="about-us" class="tab-content">
+            <section class="hero hero-about-us">
+                <div class="hero-inner">
+                    <h1>Equipo SENA CMTC</h1>
+                    <p class="hero-subtitle">Nosotros desarrollamos esta plataforma para compartir la experiencia y la creatividad de la jornada.</p>
+                </div>
+            </section>
+
+            <section class="page-section team-content">
+                
+                <div class="team-block">
+                    <div class="block-text">
+                        <h2>Orgullosamente SENA CMTC</h2>
+                        <p>Somos el equipo de futuros tecnólogos en <strong>Análisis y Desarrollo de Software</strong> del Centro de Manufactura en Textiles y Cuero (CMTC). Más que compañeros de ficha, somos un grupo de desarrolladores apasionados por crear soluciones digitales visuales y eficientes. Fuimos los invitados especiales en esta jornada de intercambio de saberes, llevando el sello de nuestra formación técnica a escenarios académicos de alto nivel.</p>
+                    </div>
+                    <div class="block-image">
+                    <div class="img-placeholder tight">
+                        <img src="IMG/Fotos del evento/Imagen_grupo.jpeg" alt="Descripción de la imagen">
+                        
+                        <span class="placeholder-text">Texto alternativo o de carga</span>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="team-block reverse">
+                    <div class="block-text">
+                        <h2>Nuestra Identidad: Aprender Haciendo</h2>
+                        <p>Para nosotros, el <strong>SENA</strong> es sinónimo de práctica real y transformación. Nuestra formación no se queda en la teoría de un tablero; se vive tirando líneas de código, estructurando bases de datos, resolviendo conflictos en Git y diseñando interfaces interactivas. Esta mentalidad ágil y orientada a proyectos es la que nos impulsa a asumir retos tecnológicos y a destacar en eventos colaborativos interinstitucionales.</p>
+                    </div>
+                    <div class="block-image">
+                    <div class="img-placeholder tight">
+                        <img src="IMG/Fotos del evento/Foto_grupo_estatua.jpeg" alt="Descripción de la imagen">
+                        
+                        <span class="placeholder-text">Texto alternativo o de carga</span>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="team-block">
+                    <div class="block-text">
+                        <h2>Detrás de esta Plataforma</h2>
+                        <p>Este sitio web es el resultado directo de lo que vivimos. Diseñamos, maquetamos y desarrollamos este espacio en un tiempo récord para documentar de forma interactiva nuestra visita a la ECCI y las valiosas lecciones sobre la teoría del color de Sara Viloria. Desde los estilos CSS modernos en modo oscuro hasta la arquitectura responsiva, cada línea fue escrita por nosotros para demostrar el nivel técnico que alcanzamos en el CMTC.</p>
+                    </div>
+                    <div class="block-image">
+                        <div class="img-placeholder tight">
+                            <img src="IMG/Fotos del evento/Foto_ mi_grupo.jpeg" alt="Descripción de la imagen">
+                            <span class="placeholder-text">Foto: Captura o detalle de la mesa de código / Detalles del proyecto</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-section">
+                    <h2>Galería del Equipo SENA CMTC</h2>
+                    <div class="gallery-grid grid-5">
+                        <div class="gallery-item">
+                            <img src="IMG/Fotos del evento/Grupo1.jpeg" alt="Equipo SENA CMTC 1" class="gallery-image">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="IMG/Fotos del evento/Grupo2.jpeg" alt="Equipo SENA CMTC 2" class="gallery-image">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="IMG/Fotos del evento/Grupo3.jpeg" alt="Equipo SENA CMTC 3" class="gallery-image">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="IMG/Fotos del evento/Grupo4.jpeg" alt="Equipo SENA CMTC 4" class="gallery-image">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="IMG/Fotos del evento/Grupo5.jpeg" alt="Equipo SENA CMTC 5" class="gallery-image">
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <h3>SENA CMTC & Universidad ECCI</h3>
+                <p>Plataforma educativa colaborativa construida para documentar el encuentro entre SENA CMTC y Universidad ECCI.</p>
+            </div>
+            <div class="footer-sections">
+                <div class="footer-section">
+                    <h4>Secciones</h4>
+                    <ul>
+                        <li><a href="#home" data-tab="home">Inicio</a></li>
+                        <li><a href="#about" data-tab="about">Sobre ECCI</a></li>
+                        <li><a href="#conference" data-tab="conference">Conferencia</a></li>
+                        <li><a href="#glosary" data-tab="glosary">Glosario</a></li>
+                        <li><a href="#about-us" data-tab="about-us">Nosotros</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>Email: <a href="mailto:cmct@sena.edu.co">cmct@sena.edu.co</a></p>
+                    <p>Tel: +57 601 234 5678</p>
+                    <p>Diseño: SENA CMTC</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p id="footer-copy">&copy; <span id="current-year"></span> SENA CMTC & Universidad ECCI. Todos los derechos reservados.</p>
+            <p id="footer-meta">Última actualización: <span id="footer-updated"></span></p>
+        </div>
+    </footer>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,181 @@
+:root {
+            --sena-orange: #FF6B00;
+            --sena-orange-dark: #C44E00;
+            --bg-main: #0F1115;
+            --bg-card: #1B1E26;
+            --text-primary: #F3F4F6;
+            --text-secondary: #9CA3AF;
+            --border-color: #262B36;
+            --radius-modern: 12px;
+            --glow-orange: rgba(255, 107, 0, 0.15);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-main);
+            color: var(--text-primary);
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .header-title-container {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+        }
+
+        header h1 {
+            color: var(--sena-orange);
+            font-size: 2.5rem;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            text-transform: uppercase;
+        }
+
+        .sena-logo {
+            height: 60px;
+            width: auto;
+            object-fit: contain;
+        }
+
+        .nav-container {
+            margin-bottom: 2rem;
+        }
+
+        .btn-regresar {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background-color: transparent;
+            color: var(--text-primary);
+            border: 1px solid var(--border-color);
+            padding: 0.75rem 1.5rem;
+            border-radius: var(--radius-modern);
+            cursor: pointer;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .btn-regresar:hover {
+            background-color: var(--sena-orange);
+            border-color: var(--sena-orange);
+            box-shadow: 0 0 15px var(--glow-orange);
+            transform: translateX(-4px);
+        }
+
+        .intro-section {
+            margin-bottom: 3rem;
+            background: linear-gradient(135deg, var(--bg-card), #14171d);
+            padding: 2rem;
+            border-radius: var(--radius-modern);
+            border: 1px solid var(--border-color);
+        }
+
+        .intro-section h2 {
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+            font-size: 1.5rem;
+        }
+
+        .intro-section p {
+            color: var(--text-secondary);
+        }
+
+        .glossary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .glossary-card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-modern);
+            padding: 1.5rem;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .glossary-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background-color: var(--sena-orange-dark);
+            transition: background-color 0.3s ease;
+        }
+
+        .glossary-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--sena-orange);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 0 15px var(--glow-orange);
+        }
+
+        .glossary-card:hover::before {
+            background-color: var(--sena-orange);
+        }
+
+        .word-title {
+            color: var(--sena-orange);
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            letter-spacing: -0.3px;
+        }
+
+        .word-definition {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            text-align: justify;
+        }
+
+        footer {
+            margin-top: 5rem;
+            border-top: 1px solid var(--border-color);
+            padding-top: 1.5rem;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem;
+            }
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 1rem;
+            }
+            .header-title-container {
+                width: 100%;
+                justify-content: space-between;
+            }
+            header h1 {
+                font-size: 2rem;
+            }
+            .glossary-grid {
+                grid-template-columns: 1fr;
+            }
+        }
